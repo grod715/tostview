@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.v7.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:contentPadding="0dp" android:layout_marginRight="10dp"
+app:cardUseCompatPadding="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageViewSup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sup1"
+            android:tint="#64282626"
+            android:tintMode="src_over"
+            android:adjustViewBounds="true"
+            android:background="@drawable/sup1" />
+
+        <TextView
+            android:id="@+id/ImageViewTextSup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/ImageViewSup"
+            android:layout_alignTop="@+id/ImageViewSup"
+            android:layout_alignRight="@+id/ImageViewSup"
+            android:layout_alignBottom="@+id/ImageViewSup"
+            android:gravity="center"
+            android:text="Hello"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_alignParentEnd="false" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
